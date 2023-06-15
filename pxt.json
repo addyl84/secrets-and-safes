@@ -1,0 +1,28 @@
+{
+    "name": "secrets and safes",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Wait Until Custom Blocks": "github:teacherpinky/wait-until-blocks#v0.1.12",
+        "microbit-pxt-clicks": "github:bsiever/microbit-pxt-clicks#v0.2.2",
+        "pxt-rekabit": "github:cytrontechnologies/pxt-rekabit#v1.2.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
